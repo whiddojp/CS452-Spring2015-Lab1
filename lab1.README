@@ -3,3 +3,6 @@ John Whiddon
 1/24/2015
 
 Description:
+Program is designed to generate and view a triangle using TRIANGLE_FAN, then generate a square using TRIANGLE_FAN while 
+clearing the first triangle, and then generate the last shape using two TRIANGLE_STRIP commands. The points are all stored
+in a single Float32Array and the visible shape is controlled by an iteration value (index) changed by clicking. 
